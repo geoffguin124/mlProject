@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['chair', 'fridge', 'table', 'tv']
+
+roboflow:
+  workspace: terra-qasex
+  project: terra-furniture-detection
+  version: 3
+  license: Private
+  url: https://universe.roboflow.com/terra-qasex/terra-furniture-detection/dataset/3

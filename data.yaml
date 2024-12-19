@@ -1,0 +1,13 @@
+train: ../data/train/images
+val: ../data/valid/images
+test: ../data/test/images
+
+nc: 32
+names: ['basket', 'bathtub', 'bed', 'cabinet', 'carpet', 'chair', 'chandelier', 'clock', 'closet', 'computer', 'couch', 'curtain', 'diningtable', 'drawer', 'fan', 'lamp', 'light', 'mirror', 'notebook', 'oven', 'pillow', 'potted plant', 'refrigerator', 'shelf', 'showerhead', 'sink', 'stove', 'table', 'toilet', 'tv', 'vase', 'washstand']
+
+roboflow:
+  workspace: a304-txrwp
+  project: furniturelabel
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/a304-txrwp/furniturelabel/dataset/3
